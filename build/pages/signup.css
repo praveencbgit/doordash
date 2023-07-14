@@ -170,7 +170,7 @@ width: 90%;
 
 #pass{
     position: absolute;
-bottom: 2rem;
+bottom: 6rem;
 padding-left: 2px;
 font-size: 18px;}
 
@@ -271,7 +271,7 @@ background-image: none;
 .top-container{
 height:800px;
     margin-top: 3rem;
-    margin-left: 6.6rem;
+padding-left: 16rem;
 }
 
 }

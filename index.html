@@ -1,0 +1,406 @@
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,maximum-scale=1"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Door Dash Food Delivery</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="top">
+        <h2>
+          <svg class="mtitle" width="155" height="18" viewBox="0 0 361.1 42" fill="#ffffff">
+            <path
+              d="M8.62,8.66V33.38h6.32A12.21,12.21,0,0,0,27,21,12,12,0,0,0,14.94,8.66ZM14.94.91C26.72.91,35.63,9.81,35.63,21S26.72,41.14,14.94,41.14H1a1,1,0,0,1-1-1V1.95a1,1,0,0,1,1-1Z"
+            ></path>
+            <path
+              d="M66,34.24A13.22,13.22,0,1,0,52.82,21,13.24,13.24,0,0,0,66,34.24M66,0C78.4,0,87.88,9.53,87.88,21S78.4,42,66,42,44.2,32.52,44.2,21,53.68,0,66,0"
+            ></path>
+            <path
+              d="M118,34.24A13.22,13.22,0,1,0,104.75,21,13.24,13.24,0,0,0,118,34.24M118,0c12.36,0,21.84,9.48,21.84,21S130.32,42,118,42,96.12,32.52,96.12,21,105.6,0,118,0"
+            ></path>
+            <path
+              d="M168.75,8.66h-8.91V19.3h8.91a5.22,5.22,0,0,0,5.46-5.17,5.28,5.28,0,0,0-5.46-5.46M151.22,1.95a1,1,0,0,1,1-1H169c8,0,13.79,5.86,13.79,13.22a13,13,0,0,1-7.18,11.78l7.74,13.68a1,1,0,0,1-.91,1.56h-6.79a1,1,0,0,1-.91-.54l-7.46-13.54h-7.47v13a1,1,0,0,1-1,1h-6.54a1,1,0,0,1-1-1Z"
+            ></path>
+            <path
+              d="M205.26,8.85V33.57h6.32a12.21,12.21,0,0,0,12.07-12.36A12,12,0,0,0,211.58,8.85Zm6.32-7.76c11.78,0,20.69,8.91,20.69,20.12s-8.91,20.12-20.69,20.12h-13.9a1,1,0,0,1-1-1V2.14a1,1,0,0,1,1-1Z"
+            ></path>
+            <path
+              d="M258.56,10.92l-4.89,13.22h9.77Zm-7.76,20.69-3.2,8.8a1,1,0,0,1-1,.69h-6.94a1,1,0,0,1-1-1.42l15-38.15a1,1,0,0,1,1-.66h7.77a1,1,0,0,1,1,.66l15,38.15a1,1,0,0,1-1,1.42h-6.94a1,1,0,0,1-1-.69l-3.2-8.8Z"
+            ></path>
+            <path
+              d="M286.48,11.78C286.48,5.46,291.94,0,300.56,0a17.84,17.84,0,0,1,12.51,4.71,1,1,0,0,1,0,1.47L309.22,10a1,1,0,0,1-1.42,0,10.12,10.12,0,0,0-6.67-2.63c-3.45,0-6,2-6,4.31,0,7.47,20.38,3.16,20.38,17.53C315.5,36.49,310,42,300.27,42a20.41,20.41,0,0,1-14.54-5.84,1,1,0,0,1,0-1.47l3.72-3.72a1,1,0,0,1,1.45,0,12.85,12.85,0,0,0,8.79,3.58c4.31,0,7.15-2.3,7.15-5.18,0-7.47-20.37-3.16-20.37-17.53"
+            ></path>
+            <path
+              d="M352.47,1.9V17H335.22V1.9a1,1,0,0,0-1-1h-6.54a1,1,0,0,0-1,1V40.05a1,1,0,0,0,1,1h6.54a1,1,0,0,0,1-1V24.71h17.24V40.05a1,1,0,0,0,1,1H360a1,1,0,0,0,1-1V1.9a1,1,0,0,0-1-1h-6.54A1,1,0,0,0,352.47,1.9Z"
+            ></path>
+          </svg>
+        </h2>
+        <svg
+          class="icon"
+          width="42"
+          height="24"
+          viewBox="0 0 99.5 56.5"
+          fill="#ffffff"
+        >
+          <path
+            d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"
+          ></path>
+          <path
+            d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"
+          ></path>
+        </svg>
+        <div class="navi">
+          <nav>
+            <a href="/pages/signin.html"><li>Sign In</li></a>
+
+            <a id="Signup" href="/pages/signup.html"><li>Sign Up</li></a>
+          </nav>
+        </div>
+
+        <div class="note">
+          <p class="txt">
+            Get more from your<span id="hood">neighborhood</span>
+          </p>
+
+          <div class="textarea">
+            <img id="loc" src="/assets/svg/location.svg" alt="location" />
+            <input placeholder="Enter delivery address" id="txt" type="text" />
+            <img id="arrow" src="/assets/svg/arrow.svg" alt="arrow" />
+          </div>
+
+          <div class="address">
+            <img id="person" src="/assets/svg/person.svg" alt="" />
+            <a id="link" href="/pages/signin.html">
+              <span>sign in for saved address</span></a
+            >
+          </div>
+        </div>
+      </div>
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>section2.>>>>>>>>>>>>>>>>>>> -->
+      <div class="section2">
+        <div class="div1">
+          <img src="/assets/svg/scooter.svg" alt="scooter" />
+          <span class="span1">Become a Dasher</span>
+          <span
+            >As a delivery driver, you'll make reliable money—working anytime,
+            anywhere.</span
+          >
+
+          
+          
+        </span>
+        <span class="arrow1">Start earning <span><img src="/assets/svg/redarrow.svg" alt="" srcset=""></span></span>
+        </div>
+
+        <div class="div2">
+          <img src="/assets/svg/partner.svg" alt="partner" />
+          <span class="span1">Become a <span>Partner</span> </span>
+          <span class="span2"
+            >Grow your business and reach new customers by partnering with
+            us.</span
+          >
+          <span class="arrow2">Sign up your store <span><img src="/assets/svg/redarrow.svg" alt="" srcset=""></span></span>
+        </div>
+
+        <div class="div3">
+          <img src="/assets/svg/iphone.svg" alt="iphone" />
+          <span class="span1"
+            ><span>Get the best</span> <span>DoorDash </span
+            ><span>experience</span></span
+          >
+          <span class="span2"
+            >Experience the best your neighborhood has to offer, all in one
+            app.</span
+          >
+          <span class="arrow3">Get the app <span><img src="/assets/svg/redarrow.svg" alt="" srcset=""></span></span>
+        </div>
+
+
+
+
+      </div>
+
+ 
+      <div class="section3">
+
+        <div class="notes1">
+        
+        <span class="span4">Everything you crave, delivered.</span>
+        <span class="span5">Your favorite local restaurants</span>
+        <span class="span6">Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you've been meaning to try.</span>
+        
+        <button id="rbtn">Find restaurants</button>
+        </div>
+        <div class="img">
+<img  class="eat" src="/assets/images/eating.webp" alt="">
+
+
+        </div>
+        
+      
+
+    </div>
+
+
+    <div class="section4">
+      <img class="bake" src="/assets/images/foodbake.avif" alt="">
+
+      <div class="food">
+      
+
+
+    
+
+        <span class="sec4-span1">DashPass is delivery for less</span>
+        <span class="sec4-span2">Members get a $0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it's free for 30 days.</span>
+        
+        <div class="butn">
+          <button id="rbtn">Get DashPass</button>
+        </div>
+      
+      </div>
+           
+              </div>
+
+
+       <div class="section5">
+
+        <div class="back">
+          <span class="sec5-span1">Get groceries and convenience store <span class="essential">essentials</span></span>
+          <span class="sec5-span2">Grocery delivery, exactly how you want it.
+          </span>
+          <span class="sec5-span3">Shop from home and fIll your cart with fresh produce, frozen entrees, <span class="del">delights, and more.</span></span>
+          <div class="btn">
+            <button id="rbtn">Shop Groceries</button>
+          </div>
+                 
+        </div>
+</div>   
+
+
+
+<div id="section"   class="section3">
+
+  
+
+  <div class="notes1">
+  
+  <span class="span4">Convenience stores at your doorstep</span>
+  <!-- <span class="span5">Your favorite local restaurants</span> -->
+  <span class="span6">Stock up on snacks, household essentials, candy, or vitamins — all delivered in under an hour.</span>
+  
+  <button id="rbtn">Shop Now</button>
+  </div>
+  <div class="img">
+<img  class="eat" src="/assets/images/plastic.avif" alt="">
+
+
+</div>
+
+
+
+</div>
+<p class="sec6-head">Helping you with to-dos and gifting</p>
+<div class="section6">
+
+<div>
+  <img class="parcel" src="/assets/images/parcel.webp" alt="">
+<span class="sec6-span1">Return packages from home</span>
+<span class ="sec6-span2">Request a package pickup with just a few taps and get your returns dropped off at carriers like UPS, FedEx, and USPS.</span>
+<div class="btn">
+
+  <button id="rbtn">Try Package Tip</button>
+</div>
+</div>
+
+
+
+
+
+<div>
+  <img class="flower" src="/assets/images/flowers.avif" alt="">
+<span class="sec6-span3">Flowers for any occasion</span>
+<span class="sec6-span4"> Shop hand-picked and thoughtfully-arranged blooms from florists near you.</span>
+<div class="btn">
+
+  <button id="rbtn">Try Package Tip</button>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+<!-- sec7 -->
+<div class="section6">
+
+  <div>
+    <img class="parcel" src="/assets/images/liqr.avif" alt="">
+  <span class="sec6-span1">Restock the minibar
+  </span>
+  <span class ="sec6-span2">Hosting a get-together or need or need a special cocktail ingredient? Get liquor, beer, mixers, champagne, and wine delivered fast.*</span>
+  <div class="btn">
+  
+    <button id="rbtn">Shop Alcohol</button>
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  <div>
+    <img class="flower" src="/assets/images/dog.png" alt="">
+  <span class="sec6-span3">What your pets need, and want</span>
+  <span class="sec6-span4"> Finally, something cat people and dog people agree on — pet supplies delivery. Shop pet food, chew toys, and even costumes.</span>
+  <div class="btn">
+  
+    <button id="rbtn">Get Pet Supplies</button>
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+    
+
+
+  <!-- sec 7 -->
+
+  <p  class="shop">Unlocking opportunity for Dashers and businesses</p>
+  <div class="section3">
+    <div class="notes1">
+    
+    <span id="span4" class="span4">Sign up to dash and get paid</span>
+    <!-- <span class="span5">Your favorite local restaurants</span> -->
+    <span id="span6" class="span6">Deliver with the #1 Food and Drink App in the U.S., set your own schedule, and start earning cash anytime, anywhere.</span>
+    
+    <button class="rbtn" id="rbtn">Become a Dasher</button>
+    </div>
+    <div class="img">
+<img  id="shop" class="eat" src="/assets/images/shopping.png" alt="">
+
+
+    </div>
+    
+  
+
+</div>
+
+<!-- sec 8>>>>>>>>>> -->
+<div class="section4">
+  <img class="bake" src="/assets/images/happy.png" alt="">
+
+  <div class="food">
+  
+
+
+
+
+    <span class="sec4-span1">Grow your business with DoorDash</span>
+    <span class="sec4-span2">Businesses large and small partner with DoorDash to reach new customers, increase order volume, and drive more sales.</span>
+    
+    <div class="butn">
+      <button id="rbtn">Become a Partner</button>
+    </div>
+  
+  </div>
+       
+          </div>
+
+
+<div id="footer" class="footer">
+
+<span class="ft1">Top Cities</span>
+<span class="ft2">Top Cuisines Near You</span>
+<div class="list">
+
+<a href=""><p>New york City</p></a>
+<a href=""><p>Los Angeles</p></a>
+<a href=""><p>Toronto</p></a>
+<a href=""><p>Chicago</p></a>
+<a href=""><p>Houston</p></a>
+<a href=""><p>Brooklyn</p></a>
+<a href=""><p>San Diego</p></a>
+<a href=""><p>Las Vegas</p></a>
+
+</div>
+
+<div class="list2">
+
+  <p>Sanfransisco</p>
+  <p>Seattle</p>
+  <p>Atlanta</p>
+  <p>Queens</p>
+  <p>Vancouver,Dc</p>
+  <p>Miami</p>
+  <p>San Antanio</p>
+  <p>Phoenix</p>
+  
+  </div>
+  <div>
+
+    <p>Denver</p>
+    <p>Austin</p>
+    <p>Washigton,DC</p>
+    <p>Dallas</p>
+    <p>Melbourne</p>
+    <p>Sydney</p>
+    <p>montreal</p>
+    <p>All Cities</p>
+    
+    </div>
+    <div>
+
+      <p>Pizza Near Me</p>
+      <p>Chineese Food Near Me</p>
+      <p>Sushi Near Me</p>
+      <p>Cafe Near Me</p>
+      <p>Mexican Food Near Me</p>
+      <p> Thai Food Near Me</p>
+      <p>Lunch Near Me</p>
+      <p>See Food Near Me</p>
+      
+      </div>
+      <div>
+
+        <p>Indian Food Near Me</p>
+        <p>Dessert Near Me</p>
+        <p>Burgers Near Me</p>
+        <p>Asian Food Near Me</p>
+        <p>Italian Food Near Me</p>
+        <p>Vegan Food Near Me</p>
+        <p>SandWitches  Near Me</p>
+        <p>Restaurants  Near Me</p>
+        
+        
+        </div>
+                    
+
+
+</div>
+
+
+
+
+  </body>
+</html>
