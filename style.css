@@ -9,6 +9,9 @@ color: white;
     font-family: 'Ysabeau SC', sans-serif;
 }
 
+.arrow1,.arrow2,.arrow3:hover{
+    cursor: pointer;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
 body{
@@ -181,126 +184,6 @@ nav>a{
 }
 
 
-/* >>>>>>>>>>>>>>>>>>>>>>responsive for mobile >>>>>>>>>>>>*/
-
-
-
-
-/* sec4 */
-
-/* .section4{
-   width: 80em;
-}
-.bake{
-    max-width: 700px;
-    zoom: 120%;
-}
-
-
-.food{
-    zoom: 180%;
-}
-
-
-
-
-
-
-
-}  */ 
-
-
-/*  
-@media(max-width:480px){
-
-
-    .top{
-    width: 90em;
-    height:60rem;
-    background-size: cover;
-    background-position: 100%;
-    }
-
-    .note{
-
-        margin-top: 3em;
-    }
-
-    
-.section2{
-
-    display: flex;
-    gap: 1em;
-justify-content: center;
-align-items: center;
-    flex-direction: column;
-    margin-left: 7em;
-    zoom: 400%;
-    padding-right: 2em;
-}
-
-.arrow1{padding-top: 2em;}
-.arrow2{padding-top: 2em;}
-.arrow3{padding-top: 2em;}
-
-.img{padding-left: 16em;}
-
-.notes1{
-zoom: 180%;
-padding-left: 6em;
-}
-.sec4-span1{zoom: 120%;}
-.section4{width: 90em;}
-
-
-.section5{
-    width: 90em;
-}
-.section6{
-padding-left: 1em;
-width: 90em;}
-.sec6-head{
-    position: relative;
-    left: 13em;
-}
-
-#sec7mainhead{
-    display: none;
-}
-
-#span4, #span6{display: none;}
-
-.footer{
-    width: 90em;
-}
-} */
-
-
-
-/* 
-@media(max-width:260px){
-
-    .top{
-
-width:38em;        
-    }
-
-    .eat{display: none;}
-
-    .textarea{
-zoom: 130%;
-        width: 450px;
-    }
-
-   
-    .section3{padding-right: 4em;}
-.section2{
-
-position: relative;
-right: 6em;}
-
-
-} */
 
 
 
@@ -655,7 +538,7 @@ display: flex;
 gap: 6em;
 color: #FFFFFF;
 font-weight: 500;
-height:40em;
+height:60em;
 margin-top: 3em;
         background-color: #191919;
     }
@@ -664,7 +547,7 @@ margin-top: 3em;
         position: relative;
         display: flex;
         top: 5em;
-        right: 6em;
+        right: 0,5em;
         color:#c4c4c4;
         flex-direction: column;
         text-decoration: none;
@@ -690,14 +573,54 @@ font-size: 14px;
         color:#c4c4c4;
      }
 
-     .ftr2{
-        display: flex;
-     }
 
-     .ftr>div{
-        display: flex;
-        flex-direction: column;
-     }
+.ftr2{display: flex;
+}
+.ftr2>div{
+    display: flex;
+    color: #c4c4c4;
+    flex-direction: column;
+}
+
+.btn1,.btn2{background-color: #494949;
+    position: relative;
+    top: 10em;
+height: 48px;
+width: 160px;
+border-radius: 10px;
+border-style: none;}
+
+.btns{display: flex;
+   
+    top: 4em;
+gap: 1em;}
+
+
+
+
+.icons>div{position:absolute;
+    list-style: none;
+    font-size: 12px;
+    display:flex;
+    flex-direction: row;
+    gap: 2em;
+    width: 90em;
+top: 60em;
+right: 14em;
+
+}
+
+#selector{
+    background-color: #f7f7f7;
+    width: 15em;
+    height: 3em;
+    border-radius: 20px;
+    font-weight: 600;
+border-style: none;}
+
+.icons:hover{cursor: pointer;}
+
+
 /* >>>>>>>>>>>>>>>>>>RESPONSIVE SCREEN */
 
 
